@@ -9,7 +9,6 @@ on:
       - "acid-acetic.toml"
       - "acid-citric.toml"
       - "acid-lactic.toml"
-      - "preview/**"
   workflow_dispatch:
 
 jobs:

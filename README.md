@@ -1,15 +1,16 @@
 # Acid for Alacritty
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -25,22 +26,9 @@ Then import it from `alacritty.toml`:
 import = ["~/.config/alacritty/acid-acetic.toml"]
 ```
 
-Anything under `[colors]` in the main config overrides the import. A leftover
-`[colors.primary] background` line pins citric to acetic's black.
+Anything under `[colors]` in the main config overrides the import, so remove
+leftover colour lines.
 
-## Files
+## Credits
 
-- `acid-acetic.toml`
-- `acid-citric.toml`
-- `acid-lactic.toml`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/alacritty/acid.toml.tera`](https://github.com/acid-theme/acid/blob/main/ports/alacritty/acid.toml.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
